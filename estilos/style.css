@@ -1,0 +1,401 @@
+* {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: #000000;
+
+}
+
+body {
+    font-family: "inter";
+    font-size: 23px;
+    background-color: #ffffff;
+}
+
+.main_header {
+    background-color: #83B248;
+    text-align: center;
+    height: 100%;
+}
+
+.main_header_nav ul {
+    display: flex;
+    justify-content: center;
+
+}
+
+.main_header_nav {
+    text-align: center;
+
+}
+
+.main_header_nav_boton {
+    background-color: #218F3E;
+    width: 340px;
+    padding: 18px;
+    margin-top: 30px;
+    margin-bottom: 31px;
+    margin-right: 80px;
+    border-radius: 167px;
+}
+
+.color_palabra {
+    color: white;
+}
+
+.main_header_nav_boton:hover {
+    transform: scale(1.2);
+    transition: all 100ms;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    background-color: #125B00;
+
+}
+
+footer {
+    background-color: #83B248;
+    bottom: 0px;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+    padding: 1.4%;
+    color: #ffffff;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.imagen-logo {
+    border-radius: 20px;
+}
+
+/*Inicio Página Home*/
+.pagina_inicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    line-height: 3;
+}
+
+.pagina_inicio_caja {
+    padding: 3%;
+    border: 2px solid #66CB42;
+    box-sizing: content-box;
+    background-color: #D9D9D9;
+
+}
+
+.imagen_salud {
+    width: 16%;
+    padding: 2%;
+}
+
+
+
+
+
+
+
+
+/*Fin Página Home*/
+
+
+
+
+
+
+
+
+/*Inicio Página Integrantes*/
+.imagen_integrantes {
+    width: 100%;
+    height: 350px;
+    flex-shrink: 0;
+    border-radius: 167px;
+    margin: 0%;
+    padding: 5%;
+
+}
+
+.cv_boton {
+    background-color: #D9D9D9;
+    width: 90%;
+    padding: 3%;
+    margin: 3%;
+    border-radius: 167px;
+}
+
+.cv_boton:hover {
+    background-color: #66CB42;
+    padding: 5%;
+    transition: all .9s ease;
+}
+
+.cv_alumnos {
+    display: flex;
+    flex-direction: column;
+}
+
+.cv_integrantes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 6%;
+}
+
+h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: underline;
+}
+
+/*Fin Página Integrantes*/
+
+/*Inicio Página Proyecto*/
+.proyecto_caja {
+    display: flex;
+    flex-direction: column;
+    margin: 60px;
+    text-align: center;
+    overflow: auto;
+    align-items: center;
+}
+
+.imagen_vida {
+    padding-bottom: 10%;
+    width: 50%;
+}
+
+.logo-life-good {
+    width: 35%;
+    margin-bottom: 5%;
+
+}
+
+
+
+
+/*Fin Página Proyecto*/
+
+/*Inicio Página Integrantes*/
+
+
+
+
+/*Fin Página Integrantes*/
+
+
+/*Inicio Página Avances*/
+.caja-informacion {
+    padding: 5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+}
+
+.texto-informacion {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-avances {
+    width: 100%;
+}
+
+.informacion-caja {
+    padding: 4%;
+}
+
+.imagen_construccion {
+    width: 30%;
+    margin: 5%;
+    position: relative;
+    left: 30%;
+}
+
+.caja-texto-informacion {
+    background: rgb(131, 178, 72);
+    background: linear-gradient(90deg, rgba(131, 178, 72, 1) 0%, rgba(218, 255, 173, 1) 48%, rgba(131, 178, 72, 1) 100%);
+    border-radius: 20px;
+    width: 50%;
+    gap: 10px;
+}
+
+.hr-linea {
+    border: 1px solid #5c7e31;
+    width: 80%;
+}
+
+.imagen-arbol {
+    width: 75%;
+    padding: 4%;
+}
+
+.texto-arbol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.logo-github {
+    width: 100%;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+}
+
+.github-figma {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.logo-figma {
+    width: 100%;
+    height: 86%;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    padding: 9%;
+}
+
+.texto-roles {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.informacion-roles {
+    padding: 5%;
+}
+
+.roles-li {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3%;
+    align-items: center;
+}
+
+
+/*Fin Página Avances*/
+
+@media(max-width:550px) {
+    footer {
+        font-size: 13px;
+        width: 100%;
+        position: fixed;
+        text-align: center;
+    }
+
+    .main_header_nav ul {
+        flex-wrap: wrap;
+    }
+
+    .imagen_salud {
+        width: 35%;
+        padding: 3%;
+    }
+
+    .main_header_nav_boton {
+        width: 139px;
+        margin: 20px;
+    }
+
+
+    .imagen_vida {
+        margin-bottom: 10%;
+        width: 75%;
+    }
+
+    .proyecto_caja {
+        margin: 10%;
+        width: 80%;
+    }
+
+    .pagina_inicio {
+        padding: 14%;
+    }
+
+    .logo-life-good {
+        width: 115%;
+        margin-bottom: 23%;
+
+    }
+
+    /*Inicio pagina Integrantes*/
+    .imagen_integrantes {
+        width: 90%;
+        height: 65%;
+        flex-shrink: 0;
+        border-radius: 167px;
+        margin: 4%;
+        padding: 6%;
+    }
+
+    .cv_boton {
+        width: 90%;
+        padding: 3%;
+        margin: 3%;
+    }
+
+
+    /*Fin pagina Integrantes*/
+    /*Inicio pagina Avances*/
+    .footer_avances_sitio {
+        position: fixed;
+    }
+
+    .logo-avances {
+        width: 100%;
+    }
+
+    .caja-texto-informacion {
+        width: 100%;
+        gap: 10px;
+    }
+
+    .imagen-arbol {
+        width: 100%;
+        padding: 2%;
+    }
+
+    .roles-li {
+        padding-bottom: 15%;
+    }
+
+    .logo-figma {
+        width: 95%;
+        height: 87%;
+        border-radius: 40px;
+        display: flex;
+        flex-direction: column;
+        padding: 7%;
+    }
+
+    /*Fin pagina Avances*/
+
+    /*Inicio pagina Sitio del Proyecto*/
+    .imagen_construccion {
+        width: 88%;
+        padding: 10%;
+        margin: 6%;
+        position: relative;
+        left: 0%;
+    }
+
+}
